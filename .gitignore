@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# TensorFlow Datasets (otomatik indirilecek)
+tensorflow_datasets/
+~/tensorflow_datasets/
+
+# Model dosyaları
+*.h5
+*.hdf5
+best_model.h5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Screenshots klasörü YÜKLENSİN
+!screenshots/*.png
+!screenshots/*.PNG
